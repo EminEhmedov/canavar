@@ -1,0 +1,176 @@
+nav{
+   
+    background-color: #85B9BC;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0px auto;
+}
+.button{
+    width: 300px;
+    height: 100px;
+    margin: 30px auto;
+    text-align: center;
+   
+}
+.score{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+.score h1{
+    color: #85B9BC;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.again{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+   bottom: -70px;
+   left: 100px;
+    background-color: #570802;
+    color: antiquewhite;
+    transition: all 2s;
+}
+.again:hover{
+    background-color: rgb(230, 42, 9);
+    color: antiquewhite;
+    font-weight: 600;
+}
+.btn{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    transition: all 2s;
+    height: 100px;
+    width: 300px;
+    
+}
+.netice{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    margin: 40px auto;
+    background-color: blanchedalmond;
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+    display: none;
+}
+.netice2{
+background-image: url("user2.webp");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.netice h1{
+    font-size: 30px;
+    color: #ec16b7;
+    font-weight: 100;
+letter-spacing: 2px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.netice1{
+    background-image: url('canavar.webp');
+    background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.game{
+    
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    display: none;
+    position: relative;
+}
+.deactive{
+    display: none;
+}
+.active{
+    display: block;
+}
+.btn{
+transition: all 5s;
+}
+.game .btn:nth-child(1):hover{
+  color: aliceblue;
+  opacity: 0.8;
+ background:linear-gradient( to right ,rgb(58, 5, 5) ,rgb(248, 5, 5)) ;
+
+}
+.game .btn:nth-child(2):hover{
+    color: aliceblue;
+    opacity: 0.8;
+   background:linear-gradient( to right ,rgb(58, 5, 5) ,rgb(42, 241, 231)) ;
+  
+  }
+  .game .btn:nth-child(3):hover{
+    color: aliceblue;
+    opacity: 0.8;
+   background:linear-gradient( to right ,rgb(58, 5, 5) ,rgb(99, 238, 18)) ;
+  
+  }
+  .game .btn:nth-child(4):hover{
+    color: aliceblue;
+    opacity: 0.8;
+   background:linear-gradient( to right ,rgb(58, 5, 5) ,rgb(16, 63, 167)) ;
+  
+  }
+  
+body{
+    background-color: #022257;
+ 
+}
+nav .image img{
+    width: 100px;
+    height: 100px;
+
+}
+.image{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+    
+}
+h1{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(228, 25, 103);
+}
+p{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(241, 37, 10);
+    margin: 0 20px;
+}
+.span{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(252, 252, 252);
+    margin-left: 10px;
+    position: relative;
+}
+span{
+    width: 0px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(247, 12, 208);
+     
+    position: absolute;
+}

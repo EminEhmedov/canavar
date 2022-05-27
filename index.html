@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="image">
+            <img src="canavar.webp" alt="">
+            <h1>Canavar</h1>
+            <p>Point</p>
+            <h3 id="canavarpoint">0</h3>
+            <div class="span">
+                <span  id="span1"></span>
+            </div>
+        </div>
+        <div class="image">
+            <img src="user2.webp" alt="">
+            <h1 id="userh1">User</h1>
+            <p>Point</p>
+            <h3 id="userpoint">0</h3>
+            <div class="span">
+                <span id="span2"></span>
+            </div>
+        </div>
+
+    </nav>
+    <div class="score">
+        <h1 id="canavarscore">0</h1>
+        <h1 id="userscore">0</h1>
+    </div>
+
+    <div class="button">
+        <button class="btn btn-lg btn-info" id="btn1">Yeni Oyun</button>
+    </div>
+    <div class="game">
+        <button class="btn btn-lg btn-danger" id="btn2"> Hucum</button>
+        <button  class="btn btn-lg btn-info" id="btn3"> Siddetli Hucum</button>
+        <button  class="btn btn-lg btn-success" id="btn4"> Can Almaq </button>
+        <button  class="btn btn-lg btn-primary"   id="btn5">Cixis</button>
+    </div>
+    <div class="netice netice1">
+        <h1> Siz oyunu uduzdunuz Oyunu canavar qazandi</h1>
+        <button class="again" onclick="again()"> Yeni Oyun</button>
+    </div>
+    <div class="netice netice2">
+        <h1> Siz oyunu uddunuz Canavar meglub oldu</h1>
+        <button class="again" onclick="again()"> Yeni Oyun</button>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
